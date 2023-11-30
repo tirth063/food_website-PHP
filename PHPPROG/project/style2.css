@@ -1,0 +1,80 @@
+body{
+    margin: 0 100px;
+    background-color: #ffeae0;
+}
+.category{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+.category .list-items{
+    width: 90%;
+    position: relative;
+    margin-top: 100px;
+}
+.category .list-items h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: sans-serif;
+    margin-bottom: 70px;
+}
+.category .list-items .card-list{
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+}
+.category .card-list .card{
+    width: 300px;
+    height: auto;
+    display:block;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 30%;
+    position:relative;
+    background-color: #ffffff;
+    outline: 2px solid #faad96;
+}
+.category .card-list .card img{
+    width: 100px;
+    height: auto;
+    bottom: 150px;
+    left: 60px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.category .card-list .card .food-title{
+    margin-top: 60px;
+    padding: 40px 0 10px;
+}
+.category .card-list .card .food-title h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.category .card .desc-food p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.category .card .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.category .card .price .Order{
+    background-color: #f5cdc1;
+    text-align: center;
+    padding: 2px 20px;
+    border-radius: 5px;
+
+}
